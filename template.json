@@ -1,0 +1,24 @@
+{
+  "package": {
+    "scripts": {
+      "build:styles": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
+      "start": "run-p start:*",
+      "start:react": "react-scripts start",
+      "start:reason": "BS_WATCH_CLEAR=true bsb -make-world -w",
+      "clean": "bsb -clean-world",
+      "prebuild": "bsb -make-world"
+    },
+    "dependencies": {
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/user-event": "^7.1.2",
+      "bs-platform": "*",
+      "npm-run-all": "*",
+      "reason-react": "*",
+      "re-classnames": "*",
+      "@dylanirlbeck/tailwind-ppx": "*",
+      "tailwindcss": "*",
+      "autoprefixer":"*"
+    }
+  }
+}
