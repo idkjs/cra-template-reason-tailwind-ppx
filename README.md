@@ -18,8 +18,12 @@ yarn create react-app my-app --template @idkjs/reason-tailwind-ppx
 
 **Silences ESLint's Bucklescript Errors**
 
-Available since [`react-scripts@0.5.0`](https://create-react-app.dev/docs/adding-custom-environment-variables#adding-development-environment-variables-in-env).
-this template adds an `.eslintignore` file in the root with `*.bs.js` so that `react-scripts` ignores these errors which have already been handled by `bucklescript`. The `javascript` is 100% safe with [ReasonML](https://reasonml.github.io/) so we don't have to worry about the `eslint` warnings. To disable, remove `*.bs.js` from `.eslintignore` or remove `.eslintignore`. Remove `EXTEND_ESLINT=true` from you `.env` file.
+Available since [react-scripts@0.5.0](https://create-react-app.dev/docs/adding-custom-environment-variables#adding-development-environment-variables-in-env),
+this template adds an `.eslintignore` file in the root directory with `*.bs.js` so that `react-scripts` ignores javascript errors which have already been handled by `bucklescript`. The `javascript` is 100% safe with [ReasonML](https://reasonml.github.io/) so we don't have to worry about these `eslint` warnings. To disable, remove `*.bs.js` from `.eslintignore` or remove `.eslintignore`. Remove `EXTEND_ESLINT=true` from you `.env` file.
+
+**TailWind PPX**
+
+See [bsconfig.json](template/bsconfig.json) for the default set up. Styles are set in [src/styles/tailwind.css](template/src/styles/tailwind.css) and [src/styles/index.css](template/src/styles/index.css) and compiled with the `build:styles` script in `package.json`.
 
 ## For more information, please refer to:
 
