@@ -1,29 +1,39 @@
 {
-	"name": "@idkjs/cra-template-reason-tailwind-ppx",
-	"version": "1.0.3",
-	"keywords": [
-		"react",
-		"create-react-app",
-		"template",
-		"reasonml",
-		"bs-platform",
-		"reason-react",
-		"tailwindcss",
-		"tailwind-ppx"
-	],
-	"description": "A ReasonML template for Create React App with Tailwind PPX.",
-	"main": "template.json",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/idkjs/cra-template-reason-tailwind-ppx.git"
-	},
-	"license": "MIT",
-	"engines": {
-		"node": ">=8"
-	},
-	"bugs": {
-		"url": "https://github.com/idkjs/cra-template-reason-tailwind-ppx/issues"
-	},
-	"files": [ "template", "template.json" ],
-	"private": false
+  "name": "@idkjs/cra-template-reason-tailwind-ppx",
+  "version": "1.0.4",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "reasonml",
+    "bs-platform",
+    "reason-react",
+    "tailwindcss",
+    "tailwind-ppx"
+  ],
+  "description": "A ReasonML template for Create React App with Tailwind PPX.",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idkjs/cra-template-reason-tailwind-ppx.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/idkjs/cra-template-reason-tailwind-ppx/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "private": false,
+  "homepage": "https://github.com/idkjs/cra-template-reason-tailwind-ppx#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alain Armand <aarmand.inbox@gmail.com>"
 }

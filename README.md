@@ -1,4 +1,4 @@
-# cra-template @idkjs/reason-tailwind-ppx
+# cra-template-reason-tailwind-ppx
 
 This is a [ReasonML](https://reasonml.github.io/) + [ReasonReact](https://reasonml.github.io/reason-react/en/) template for [Create React App](https://github.com/facebook/create-react-app) featuring [TailwindCSS](https://tailwindcss.com) and [dylanirlbeck/tailwind-ppx](https://github.com/dylanirlbeck/tailwind-ppx) for type-safe `css`.
 
