@@ -19,7 +19,7 @@ yarn create react-app my-app --template @idkjs/reason-tailwind-ppx
 **Silences ESLint's Bucklescript Errors**
 
 Available since [react-scripts@0.5.0](https://create-react-app.dev/docs/adding-custom-environment-variables#adding-development-environment-variables-in-env),
-this template adds an `.eslintignore` file in the root directory with `*.bs.js` so that `react-scripts` ignores javascript errors which have already been handled by `bucklescript`. The `javascript` is 100% safe with [ReasonML](https://reasonml.github.io/) so we don't have to worry about these `eslint` warnings. To disable, remove `*.bs.js` from `.eslintignore` or remove `.eslintignore`. Remove `EXTEND_ESLINT=true` from you `.env` file.
+this template adds an `.eslintignore` file in the root directory with `*.bs.js` so that `react-scripts` ignores javascript errors which have already been handled by `bucklescript`. The `javascript` is 100% safe with [ReasonML](https://reasonml.github.io/) so we don't have to worry about these `eslint` warnings. To disable, remove `*.bs.js` from `.eslintignore` or remove `.eslintignore`. Remove `EXTEND_ESLINT=true` from your `.env` file.
 
 **TailWind PPX**
 
